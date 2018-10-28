@@ -136,14 +136,13 @@ STATIC_URL = '/static/'
 
 
 #Mail sending
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'edwin001'
-EMAIL_HOST_PASSWORD = 'smriti224'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+# EMAIL_HOST = 'smtp.sendgrid.net'
+# EMAIL_HOST_USER = 'Your_Username'
+# EMAIL_HOST_PASSWORD = Your_Password'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_USE_SSL = False
 
-#api_key: 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
-#api_key_id: 8SSqxjqmRlGHQ_vC3tUeGA
+

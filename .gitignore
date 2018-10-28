@@ -1,0 +1,15 @@
+
+# Created by https://www.gitignore.io/api/django
+
+### Django ###
+*.log
+*.pot
+*.pyc
+.idea/
+geckodriver.log
+__pycache__/
+local_settings.py
+db.sqlite3
+/media
+/static
+/images

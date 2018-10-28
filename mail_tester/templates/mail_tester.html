@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Sending</title>
+</head>
+<body>
+    <h1>Email Checker</h1>
+    <h2>For Now We Only Give Support for GMail.</h2>
+    <h3>Enter Mail Addresses separated with space.</h3>
+
+    <form action="{% url 'alive_mail' %}">
+        <textarea cols="40" rows="5" name="email_list"></textarea>
+        <br>
+        <input type="submit" value="Extract">
+
+    </form>
+
+
+</body>
+</html>

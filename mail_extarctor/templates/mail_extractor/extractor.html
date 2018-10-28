@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Extractor</title>
+</head>
+<body>
+
+    <a href="{% url 'home' %}"><button>Home</button></a>
+
+    <h2>{{ total_email }} email extracted </h2>
+
+    <textarea cols="150" rows="40">
+
+        {% for email in email_list %}
+
+            {{ forloop.counter }}.{{ email }}
+
+        {% endfor %}
+
+    </textarea>
+
+
+</body>
+</html>

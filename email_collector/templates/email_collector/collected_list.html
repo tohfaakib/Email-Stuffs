@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <a href="{% url 'home' %}"><button>Home</button></a>
+
+    <h1>Collected list:</h1>
+
+     <textarea cols="150" rows="40">
+
+        {% for email in email_list %}
+
+            {{ email }}
+
+        {% endfor %}
+
+    </textarea>
+
+</body>
+</html>

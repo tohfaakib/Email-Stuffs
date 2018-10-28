@@ -1,0 +1,22 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Extractor | Home</title>
+</head>
+<body>
+
+    <a href="{% url 'email_collector' %}"><button>Email Collector</button></a>
+    <a href="{% url 'mail' %}"><button>Email Alive Checker</button></a>
+
+    <form action="{% url 'extractor' %}">
+        <textarea cols="40" rows="5" name="fulltext"></textarea>
+        <br>
+        <input type="submit" value="Extract">
+
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Collector</title>
+
+</head>
+<body>
+
+
+    <form action="{% url 'collected_list' %}">
+        <label>Enter Keyword: </label>
+        <br>
+        <input type="text" name="keyword">
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+
+</body>
+</html>
